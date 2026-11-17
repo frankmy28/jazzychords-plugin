@@ -38,6 +38,14 @@ extension ChordBank {
             s(D, "m11"), s(G, "13sus4"), s(G, "7alt"), s(F, "maj13"),
             s(Gb, "m7b5"), s(B, "7#9"), s(E, "m11"), s(F, "maj7", G),
         ]),
+        // Masters at Work style: NY house with Latin jazz and gospel roots.
+        // Dorian minor 9 vamps, minor ii-V-i with altered dominants, lush major 9ths
+        // and gospel slash chords, centred on F minor / A♭ major.
+        ChordBank(name: "Masters at Work Style", slots: [
+            s(F, "m9"), s(Bb, "13"), s(Eb, "maj9"), s(Ab, "maj9"),
+            s(D, "m7b5"), s(G, "7alt"), s(C, "m11"), s(F, "m11"),
+            s(Db, "maj9#11"), s(Bb, "9sus4"), s(C, "7#9"), s(Ab, "6/9", Bb),
+        ]),
     ]
 
     public static var defaultBank: ChordBank { factory[0] }

@@ -6,7 +6,7 @@ AUv3 MIDI FX chord trigger for Logic Pro (Apple Silicon), focused on soulful/dee
 - **Transpose mode:** every key is a root; the selected chord type is built on it.
 - Voicings (close, drop 2, drop 3, spread, house stab), inversions, octave, automatic voice leading.
 - Strum (up/down/alternate) and humanize (timing/velocity).
-- Six factory banks, user presets, and per-project state saved by Logic.
+- Seven factory banks, user presets, and per-project state saved by Logic.
 
 ## Build
 

@@ -180,7 +180,7 @@ Open the preset menu at the top right. The button shows the current preset name.
 
 ### Factory banks
 
-There are six ready-made banks of 12 chords each (see [Reference: factory banks](#13-reference-factory-banks)). **Loading a factory bank replaces the chords only.** Voicing, strum, velocity and mode stay as they are, so you can try different progressions with the same feel.
+There are seven ready-made banks of 12 chords each (see [Reference: factory banks](#13-reference-factory-banks)). **Loading a factory bank replaces the chords only.** Voicing, strum, velocity and mode stay as they are, so you can try different progressions with the same feel.
 
 ### User presets
 
@@ -305,6 +305,26 @@ Keys are shown with the default trigger octave (C1–B1).
 - **Kerri-style Minor:** C1 → A♭1 → E1 → F1 (Cm9 → Fm11 → A♭maj9 → B♭9sus)
 - **Jazz ii-V-I:** C1 → D♭1 → D1 (Dm9 → G13 → Cmaj9), or the minor ii-V E♭1 → E1 → F1
 - **Gospel Turnarounds:** C1 → D♭1 → D1 → E♭1 (Cmaj9 → E7♯9 → Am9 → D9)
+
+### Masters at Work Style
+
+This bank is inspired by the New York house of Louie Vega and Kenny Dope: jazzy Dorian vamps, Latin-jazz ii-V-i turnarounds and gospel slash chords, centred on F minor / A♭ major. It captures their harmonic style; it is not a transcription of specific tracks.
+
+| Key | Chord | Key | Chord | Key | Chord |
+|---|---|---|---|---|---|
+| C1 | Fm9 | E1 | Dm7♭5 | A♭1 | D♭maj9♯11 |
+| D♭1 | B♭13 | F1 | G7alt | A1 | B♭9sus |
+| D1 | E♭maj9 | G♭1 | Cm11 | B♭1 | C7♯9 |
+| E♭1 | A♭maj9 | G1 | Fm11 | B1 | A♭6/9/B♭ |
+
+**Progressions to try:**
+
+- **Dorian vamp** (the Latin-house groove): C1 ↔ D♭1 (Fm9 ↔ B♭13). Loop it with a syncopated piano-montuno rhythm.
+- **Minor ii-V-i:** E1 → F1 → G♭1 (Dm7♭5 → G7alt → Cm11)
+- **Gospel lift:** A1 → D1 → E♭1 (B♭9sus → E♭maj9 → A♭maj9), then B1 (A♭6/9/B♭) to turn around
+- **Back to the vamp:** B♭1 → C1 (C7♯9 → Fm9)
+
+For the classic MAW keys sound, try **Drop 2** voicing, Strum 10–15 ms in **Alt** direction and Humanize Velocity about ±12, through a Rhodes or acoustic piano.
 
 ---
 

@@ -119,7 +119,7 @@ import Testing
     }
 
     @Test func factoryBanksAreComplete() {
-        #expect(ChordBank.factory.count == 6)
+        #expect(ChordBank.factory.count == 7)
         for bank in ChordBank.factory {
             #expect(bank.slots.count == ChordBank.slotCount)
         }
