@@ -21,6 +21,8 @@ auval -v aumi Jzch Fmth                           # validate
 Then in Logic Pro: Software Instrument track → MIDI FX → Audio Units → Frank Mathy → JazzyChords.
 If it doesn't appear, use Settings → Plug-in Manager → Reset & Rescan.
 
+User guide: see [USER_GUIDE.md](USER_GUIDE.md).
+
 ## Layout
 
 - `ChordCore/` – Swift package with chord qualities, voicing, voice leading and banks (`swift test`).
