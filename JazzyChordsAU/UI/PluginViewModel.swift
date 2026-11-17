@@ -35,9 +35,13 @@ final class PluginViewModel {
         observerToken = audioUnit.parameterTree?.token(byAddingParameterObserver: { [weak self] address, value in
             DispatchQueue.main.async { self?.values[address] = value }
         })
-        timer = Timer.scheduledTimer(withTimeInterval: 1.0 / 30.0, repeats: true) { [weak self] _ in
+        // Common modes keep the display updating while the mouse is held on a pad
+        // (the run loop is then in event-tracking mode, where default-mode timers pause).
+        let timer = Timer(timeInterval: 1.0 / 30.0, repeats: true) { [weak self] _ in
             MainActor.assumeIsolated { self?.pollKernel() }
         }
+        RunLoop.main.add(timer, forMode: .common)
+        self.timer = timer
     }
 
     isolated deinit {
